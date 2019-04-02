@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+*{
+    margin: 0;padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    background: #191919;
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+    display: table;
+}
+#wrapper{
+
+    width: 100px;
+    height: 50px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    transform: translate(-50%,-50%);
+
+}
+path{
+    stroke: #ffffff;
+    fill: #ffffff;
+    stroke-dasharray:3000;
+    opacity: 10;
+    animation: animate 2s cubic-bezier(0,0.23,1,.1);
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        fill: none;
+        stroke-dashoffset: 3000;
+    }
+    30%{
+        opacity: 10;
+        fill: none;
+        stroke-dashoffset: 3000;
+    }
+    90%{
+        fill: rgba(255, 255, 255, 0);
+    }
+    100%{
+        opacity: 10;
+        fill: rgba(255,255,255,1);
+        stroke-dashoffset: 0;
+    }
+}
+#mainAll{
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/back.jpg');
+    -webkit-background-size: cover;
+    opacity: 0.1;
+    filter: alpha(opacity=10);/* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;
+}
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+}
+#footer img{
+    width: 20%;
+    height: 60%;
+    float: right;
+}
+.qst{
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+}
+.answer{
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+      margin-top: 15%;
+
+}
+.ansPaice{
+
+    padding: 2%;
+    text-align: center;
+    margin-top: 2%;
+    margin: 10px;
+    font-family: "Open Sans", sans-serif;
+    border-left: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+    border-radius: 20px;
+    font-size: 150%;
+    position: absolute;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+}
+.ansBack{
+    padding: 2%;
+    text-align: center;
+    margin-top: 2%;
+    margin: 10px;
+    font-family: "Open Sans", sans-serif;
+    border-left: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+    border-radius: 20px;
+    font-size: 150%;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 0.5s;
+}
+.col:hover .ansPaice{
+    transform: rotateX(-180deg);
+
+}
+.col:hover .ansBack{
+    transform: rotateX(0deg);
+}
+.col{
+    margin-bottom: 2%;
+}
