@@ -94,6 +94,9 @@ path{
     height: 100%;
     margin-top: 5%;
 }
+.qst h2{
+    font-family: "Open Sans";
+}
 .answer{
     color: #ffffff;
     position: absolute;
@@ -181,7 +184,7 @@ path{
 
 
         font-size: 120%;
-        font-weight: bolder;
+        font-weight: bold;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         backface-visibility: hidden;
         transform: rotateX(180deg);
@@ -206,7 +209,7 @@ path{
 
         font-size: 110%;
         position: absolute;
-        font-weight: bolder;
+        font-weight: bold;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         backface-visibility: hidden;
         transform: rotateX(0deg);
@@ -222,7 +225,7 @@ path{
 
 
         font-size: 110%;
-        font-weight: bolder;
+        font-weight: bold;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         backface-visibility: hidden;
         transform: rotateX(180deg);
@@ -253,7 +256,7 @@ path{
 
         font-size: 110%;
         position: absolute;
-        font-weight: bolder;
+        font-weight: bold;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         backface-visibility: hidden;
         transform: rotateX(0deg);
@@ -269,7 +272,7 @@ path{
 
 
         font-size: 120%;
-        font-weight: bolder;
+        font-weight: bold;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         backface-visibility: hidden;
         transform: rotateX(180deg);
@@ -369,7 +372,7 @@ path{
 
 
         font-size: 90%;
-        font-weight: bolder;
+        font-weight: bold;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         backface-visibility: hidden;
         transform: rotateX(180deg);
