@@ -1,7 +1,9 @@
 .special-heading {
-    border-bottom: 1px solid #ffffff;
     margin-bottom: 25px;
-    margin-left: 8%;
+    margin-left: 3%;
+    margin-bottom: 8%;
+    margin-right: 3%;
+    text-align: justify;
 }
 .special-heading h1, .special-heading h2, .special-heading h3, .special-heading h4, .special-heading h5, .special-heading h6 {
     border-bottom: 2px solid #4a90e2;
@@ -24,4 +26,25 @@
     font-weight: 700;
     padding: 0 0 7px;
     margin: 0 0 -2px;
+}
+.container p{
+    text-align: justify;
+}
+h2{
+    font-family: "Open Sans";
+}
+@media screen and (max-width: 336px) {
+h2{
+    font-size: 1.5rem;
+}
+}
+@media screen and (max-width: 480px) {
+    h2{
+        font-size: 1.6rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    h2{
+        font-size: 1.6rem;
+    }
 }
