@@ -21,6 +21,9 @@ body {
   height: 100%;
   /* display: table; */
 }
+.navbar-toggler-icon {
+  background-image: url(../image/icons/index.svg) !important;
+}
 #wrapper {
   width: 100px;
   height: 50px;
@@ -213,6 +216,9 @@ a{
   #footer {
     height: 12%;
   }
+  .module .container .row {
+    margin-top: -10%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -263,6 +269,12 @@ a{
   .decs-head {
     text-align: center;
   }
+  .module .container .row {
+    margin-top: -35%;
+  }
+  .module .container .row {
+    margin-top: -25%;
+  }
 }
 
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
@@ -302,6 +314,9 @@ a{
   }
   #footer {
     height: 8%;
+  }
+  .module .container .row {
+    margin-top: -25%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -347,6 +362,9 @@ a{
   #footer {
     height: 6%;
   }
+  .module .container .row {
+    margin-top: -35%;
+  }
 }
 @media screen and (max-width: 336px) {
   .qst {
@@ -391,6 +409,9 @@ a{
   }
   #footer {
     height: 4%;
+  }
+  .module .container .row {
+    margin-top: -65%;
   }
 
 }
