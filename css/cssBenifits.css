@@ -1,0 +1,97 @@
+* {
+    -webkit-font-smoothing: antialiased;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+
+    font-size: 100%;
+}
+body {
+    background: #ffffff;
+    font-size: 16px;
+    color: #4e4e4e;
+    font-family: Hind,Arial,serif;
+    line-height: 1.85;
+    font-weight: 400;
+    font-size: 15px;
+    color: #999;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.module, .module-sm {
+    background-color: #fff;
+    padding: 100px 0;
+}
+.module, .module-header, .module-sm {
+
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 250px 0;
+}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+.special-heading {
+    border-bottom: 1px solid #f2f2f2;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.special-heading h1, .special-heading h2, .special-heading h3, .special-heading h4, .special-heading h5, .special-heading h6 {
+    border-bottom: 2px solid #4a90e2;
+    display: inline-block;
+    padding: 0 0 7px;
+    margin: 0 0 -2px;
+}
+
+.special-heading h1 {
+    font-size: 20px;
+}
+.special-heading h1, .special-heading h2, .special-heading h3, .special-heading h4 {
+    letter-spacing: 2px;
+}
+.special-heading h1, .special-heading h2, .special-heading h3, .special-heading h4, .special-heading h5, .special-heading h6 {
+    border-bottom: 2px solid #4a90e2;
+    display: inline-block;
+    font-weight: 700;
+    padding: 0 0 7px;
+    margin: 0 0 -2px;
+}
+.h1, .h1,h1 {
+
+    font-size: 40px;
+
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+
+    font-family: Poppins,Arial,serif;
+    line-height: 1.8;
+    font-weight: 700;
+    color: #313131;
+
+}
+h4 {
+
+    font-size: 1rem;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    margin-top: 0;
+    margin-bottom: .5rem;
+
+}
+ul li h4{
+    margin-top: 6%;
+}
+

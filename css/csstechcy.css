@@ -1,0 +1,27 @@
+.special-heading {
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 25px;
+    margin-left: 8%;
+}
+.special-heading h1, .special-heading h2, .special-heading h3, .special-heading h4, .special-heading h5, .special-heading h6 {
+    border-bottom: 2px solid #4a90e2;
+    display: inline-block;
+    padding: 0 0 7px;
+    margin: 0 0 -2px;
+}
+
+.special-heading h1 {
+    font-size: 20px;
+    margin-top: 20%;
+
+}
+.special-heading h1, .special-heading h2, .special-heading h3, .special-heading h4 {
+    letter-spacing: 2px;
+}
+.special-heading h1, .special-heading h2, .special-heading h3, .special-heading h4, .special-heading h5, .special-heading h6 {
+    border-bottom: 2px solid #4a90e2;
+    display: inline-block;
+    font-weight: 700;
+    padding: 0 0 7px;
+    margin: 0 0 -2px;
+}
