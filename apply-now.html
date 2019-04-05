@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Packapeer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/icons/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/cssBenifits.css">
+    <link rel="stylesheet" type="text/css" href="css/styleLoader.css">
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <script src="vendor/wow/wow.min.js"></script>
+    <style>
+        .table {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin: 0 auto;
+            grid-gap: 20px;
+        }
+
+        .tiles {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            background: #eee;
+            padding: 30px 0px;
+            border-radius: 10px;
+        }
+
+        .tile1 {
+            background: #FBBF18;
+            box-shadow: 0px 0px 60px rgba(255, 221, 87, 0.5);
+        }
+
+        .tile2 {
+            background: #FBBF18;
+            box-shadow: 0px 0px 60px rgba(255, 221, 87, 0.5);
+            z-index: 100;
+        }
+
+        .tile3 {
+            background: #FBBF18;
+            box-shadow: 0px 0px 60px rgba(255, 221, 87, 0.5);
+        }
+
+        h1 {
+            font-size: 1.6rem;
+            padding: 10px 0px;
+            margin-bottom: 10px;
+        }
+
+        img {
+            width: 50%;
+        }
+
+        p {
+            padding: 2px 0px;
+        }
+
+        button {
+            border: 2px solid #fff;
+            border-radius: 30px;
+            padding: 12px 35px;
+            margin-top: 23px;
+            font-size: .9rem;
+            background: #191919;
+            color: #FFF;
+            font-weight: 700;
+            margin-bottom: 25px;
+        }
+
+        /* heading */
+        .fee-header h3 {
+            font-size: 32px;
+            color: #FFF;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 700;
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+        .fee-header h3::before {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 120px;
+            height: 1px;
+            background: #ddd;
+            bottom: 1px;
+            left: calc(50% - 60px);
+        }
+
+        .fee-header h3::after {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 40px;
+            height: 3px;
+            background: #FBBF18;
+            bottom: 0;
+            left: calc(50% - 20px);
+        }
+
+        /* Tabs */
+
+        /* #Tabs */
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand w-75" href="#"><img class="logo float-left wow zoomIn" src="image/whitelogo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapase" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto wow zoomIn">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Why you are here?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Course Plan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Benefits of our program</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Apply Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Admission Procedure</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="col-sm-12">
+        <header class="fee-header">
+            <h3>How To Apply</h3>
+        </header>
+    </div>
+    <!-- <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="how.html" frameborder="0"></iframe>
+    </div> -->
+
+    <section class="container py-4">
+        <div class="row">
+            <div class="col-md-12">
+                <ul id="tabsJustified" class="nav nav-tabs">
+                    <li class="nav-item ml-auto mr-auto"><a href="" data-target="#home1" data-toggle="tab"
+                            class="nav-link small text-uppercase active">Apply</a></li>
+                    <li class="nav-item ml-auto mr-auto"><a href="" data-target="#profile1" data-toggle="tab"
+                            class="nav-link small text-uppercase">Interview</a></li>
+                    <li class="nav-item ml-auto mr-auto"><a href="" data-target="#messages1" data-toggle="tab"
+                            class="nav-link small text-uppercase">Confirmation</a></li>
+                </ul>
+                <br>
+                <div id="tabsJustifiedContent" class="tab-content">
+                    <div id="home1" class="tab-pane fade active show">
+                        <div class="row">
+                            Next Batch will start on July 1st<br>
+
+                            Registration will close by June<br>
+
+                            20 Seats Only<br>
+                            <button>Apply Now</button>
+                        </div>
+
+                    </div>
+                    <div id="profile1" class="tab-pane fade">
+                        <div class="row">
+                            <p>
+                                We Will Call You For An Interview After Succesfull Submission Of Application
+                            </p>
+                        </div>
+                    </div>
+                    <div id="messages1" class="tab-pane fade">
+                        <div class="row">
+                            <p>
+                                We Will Send You A Confirmation After Succesfull Perfomance In The Interview
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <div class="col-sm-12">
+        <header class="fee-header">
+            <h3>Fee Sructure</h3>
+        </header>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="tiles tile1 col-md-3 ml-auto">
+                <h1>1<sup>st</sup> Quadmester</h1><img src="image/paper-plane.png" alt="" /><br>
+                <button>₹ 1,00,000 + Tax</button>
+            </div>
+            <div class="tiles tile2 col-md-3 ml-auto mr-auto">
+                <h1>2<sup>nd</sup> Quadmester</h1><img src="image/plane.png" alt="" /><br>
+                <button>₹ 50,000 + Tax</button>
+            </div>
+            <div class="tiles tile3 col-md-3 mr-auto">
+                <h1>3<sup>rd</sup> Quadmester</h1><img src="image/space-ship.png" alt="" /><br>
+                <button>₹ 50,000 + Tax</button>
+            </div>
+        </div>
+    </div>
