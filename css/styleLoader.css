@@ -21,9 +21,6 @@ body {
   height: 100%;
   /* display: table; */
 }
-.navbar-toggler-icon {
-  background-image: url(../image/icons/index.svg) !important;
-}
 #wrapper {
   width: 100px;
   height: 50px;

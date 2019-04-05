@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e164af78-690a-45cc-970d-584ffb96b405" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/cssBenifits.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/cssBenifits.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styleLoader.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styleLoader.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/terms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-495">
-              <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+            <state relative-caret-position="270">
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -46,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styleLoader.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="219" column="19" selection-start-line="219" selection-start-column="19" selection-end-line="219" selection-end-column="19" />
+            <state relative-caret-position="278">
+              <caret line="412" lean-forward="true" selection-start-line="412" selection-end-line="412" />
             </state>
           </provider>
         </entry>
@@ -165,15 +165,15 @@
         <option value="$PROJECT_DIR$/BckLogs.html" />
         <option value="$PROJECT_DIR$/champion.html" />
         <option value="$PROJECT_DIR$/nonTech.html" />
-        <option value="$PROJECT_DIR$/terms.html" />
         <option value="$PROJECT_DIR$/whoweare.html" />
         <option value="$PROJECT_DIR$/course.html" />
         <option value="$PROJECT_DIR$/css/cssBenifits.css" />
         <option value="$PROJECT_DIR$/css/styleLoader.css" />
+        <option value="$PROJECT_DIR$/terms.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="474" />
     <option name="y" value="105" />
     <option name="width" value="840" />
@@ -243,7 +243,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74095000" />
+    <option name="totallyTimeSpent" value="75810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1374" height="727" extended-state="6" />
@@ -474,10 +474,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/terms.html">
+    <entry file="file://$PROJECT_DIR$/css/styleLoader.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
-          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+        <state relative-caret-position="278">
+          <caret line="412" lean-forward="true" selection-start-line="412" selection-end-line="412" />
         </state>
       </provider>
     </entry>
@@ -488,10 +488,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styleLoader.css">
+    <entry file="file://$PROJECT_DIR$/terms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="219" column="19" selection-start-line="219" selection-start-column="19" selection-end-line="219" selection-end-column="19" />
+        <state relative-caret-position="270">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
         </state>
       </provider>
     </entry>
