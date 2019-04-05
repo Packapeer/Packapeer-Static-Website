@@ -35,6 +35,7 @@ body {
 
   transform: translate(-50%, -50%);
 }
+
 path {
   stroke: #ffffff;
   fill: #ffffff;
@@ -124,7 +125,7 @@ path {
   transition: 0.5s;
 }
 .ansBack {
-  padding: 2%;
+  padding: 4%;
   text-align: center;
   margin-top: 2%;
   margin: 10px;
@@ -150,7 +151,10 @@ path {
 .col-12 {
   margin-bottom: 2%;
 }
-
+a .ansBack{
+  text-decoration: none;
+  color: #ffffff;
+}
 .decs {
   background: #2f2f2f;
   justify-content: right;
@@ -388,4 +392,5 @@ a{
   #footer {
     height: 4%;
   }
+
 }
