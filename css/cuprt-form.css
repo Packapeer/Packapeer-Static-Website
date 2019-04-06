@@ -54,7 +54,7 @@ form .row {
 form input[type="text"], form input[type="email"], form input[type="password"], form textarea {
 	width: 100%;
 	height: 40px;
-	padding: 10px 10px 10px 90px;
+	padding: 10px 10px 10px 140px;
 	box-sizing: border-box;
 	border: 1px solid #ccc;
 	color: #333;
