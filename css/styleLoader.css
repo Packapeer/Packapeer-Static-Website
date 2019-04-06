@@ -145,7 +145,7 @@ a .ansBack{
   justify-content: right;
 }
 .logo {
-  width: 25%;
+  width: 40%;
 }
 .video {
   width: 80%;
@@ -155,8 +155,9 @@ a .ansBack{
   background-image: url(/image/menu.svg) !important;
 }
 
-a{
- font-size: 0.75rem;
+.nav-item a{
+ font-size: 0.8rem;
+ font-weight: bold;
 }
 
 @media screen and (max-width: 992px) {
