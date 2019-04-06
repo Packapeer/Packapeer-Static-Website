@@ -251,6 +251,9 @@ form button:hover:before, form button:focus:before {
 	transform: scale(1);
 	transition: all 0.3s cubic-bezier(1, 0.1, 0, 0.9);
 }
+.ml-140 {
+	margin-left: 150px;
+}
 .gend-label{
 	position: absolute;
 	top: 0;
