@@ -68,7 +68,7 @@ form textarea {
 	padding: 50px 10px 10px 10px;
 }
 
-form input[type="text"] + label,form input[type="email"] + label, form input[type="password"] + label, form textarea + label ,label{
+form input[type="text"] + label,form input[type="email"] + label, form input[type="password"] + label, form textarea + label{
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -250,4 +250,27 @@ form button:before {
 form button:hover:before, form button:focus:before {
 	transform: scale(1);
 	transition: all 0.3s cubic-bezier(1, 0.1, 0, 0.9);
+}
+.ml-140 {
+	margin-left: 150px;
+}
+.gend-label{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	font-weight: bold;
+	width: 130px;
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	color: white;
+	background: #FBBF18;
+	border-radius: 3px 0 0 3px;
+	transition: all 0.3s cubic-bezier(1, 0.1, 0, 0.9);
+	transform: translateZ(0) translateX(0);
 }
