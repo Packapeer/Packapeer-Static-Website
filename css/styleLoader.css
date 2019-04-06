@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300, 400, 700");
+@font-face {
+  font-family: "BebasNeue-Regular";
+  src: url("../fonts/bebas_neue/BebasNeue-Regular.ttf");
+}
+@font-face {
+  font-family: "Aileron-Regular";
+  src: url("../fonts/aileron/Aileron-Regular.otf");
+}
 
 html {
   margin: 0;
@@ -92,12 +100,12 @@ path {
   color: #ffffff;
   position: absolute;
   width: 100%;
-  font-family: "Open Sans";
   height: 100%;
   margin-top: 5%;
 }
 .qst h2 {
-  font-family: "Open Sans";
+  font-family:BebasNeue-Regular;
+  color: #fcc017;
 }
 .answer {
   color: #ffffff;
@@ -111,45 +119,20 @@ path {
   text-align: center;
   margin-top: 2%;
   margin: 10px;
-  font-family: "Open Sans", sans-serif;
-  border-left: 3px solid #ffffff;
-  border-right: 3px solid #ffffff;
-  border-top: 2px solid #ffffff;
-  border-bottom: 2px solid #ffffff;
-  border-color: #fcc017;
+  font-family: Aileron-Regular;
 
-  font-size: 150%;
-  position: absolute;
+  font-size: 200%;
+  color: #FFFFFF;
   font-weight: bold;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.4);
   backface-visibility: hidden;
   transform: rotateX(0deg);
   transition: 0.5s;
 }
-.ansBack {
-  padding: 4%;
-  text-align: center;
-  margin-top: 2%;
-  margin: 10px;
-  font-family: "Open Sans", sans-serif;
-  border-left: 3px solid #ffffff;
-  border-right: 3px solid #ffffff;
-  border-top: 2px solid #ffffff;
-  border-bottom: 2px solid #ffffff;
+.ansPaice:hover{
+  border: 1px solid #fcc017;
+}
 
-  font-size: 150%;
-  font-weight: bold;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  backface-visibility: hidden;
-  transform: rotateX(180deg);
-  transition: 0.5s;
-}
-.col-12:hover .ansPaice {
-  transform: rotateX(-180deg);
-}
-.col-12:hover .ansBack {
-  transform: rotateX(0deg);
-}
 .col-12 {
   margin-bottom: 2%;
 }
@@ -195,20 +178,6 @@ a{
   .qst {
     margin-top: 8%;
   }
-  .ansBack {
-    padding: 3%;
-    text-align: center;
-    margin-top: 2%;
-    margin: 10px;
-    font-family: "Open Sans", sans-serif;
-
-    font-size: 120%;
-    font-weight: bold;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    backface-visibility: hidden;
-    transform: rotateX(180deg);
-    transition: 0.5s;
-  }
   .answer {
     margin-top: 18%;
   }
@@ -236,20 +205,7 @@ a{
     transform: rotateX(0deg);
     transition: 0.5s;
   }
-  .ansBack {
-    padding: 4%;
-    text-align: center;
-    margin-top: 2%;
-    margin: 10px;
-    font-family: "Open Sans", sans-serif;
 
-    font-size: 110%;
-    font-weight: bold;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    backface-visibility: hidden;
-    transform: rotateX(180deg);
-    transition: 0.5s;
-  }
   col-sm-6 {
     margin-bottom: 16%;
   }
@@ -293,20 +249,7 @@ a{
     transform: rotateX(0deg);
     transition: 0.5s;
   }
-  .ansBack {
-    padding: 4%;
-    text-align: center;
-    margin-top: 2%;
-    margin: 10px;
-    font-family: "Open Sans", sans-serif;
 
-    font-size: 120%;
-    font-weight: bold;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    backface-visibility: hidden;
-    transform: rotateX(180deg);
-    transition: 0.5s;
-  }
 
   .answer {
     margin-top: 30%;
@@ -341,20 +284,7 @@ a{
     transform: rotateX(0deg);
     transition: 0.5s;
   }
-  .ansBack {
-    padding: 4%;
-    text-align: center;
-    margin-top: 2%;
-    margin: 10px;
-    font-family: "Open Sans", sans-serif;
 
-    font-size: 110%;
-    font-weight: bolder;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    backface-visibility: hidden;
-    transform: rotateX(180deg);
-    transition: 0.5s;
-  }
   .answer {
     margin-top: 50%;
   }
@@ -387,19 +317,7 @@ a{
     transform: rotateX(0deg);
     transition: 0.5s;
   }
-  .ansBack {
-    padding: 10%;
-    text-align: center;
-    margin: 10px;
-    font-family: "Open Sans", sans-serif;
 
-    font-size: 90%;
-    font-weight: bold;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    backface-visibility: hidden;
-    transform: rotateX(180deg);
-    transition: 0.5s;
-  }
   .answer {
     margin-top: 60%;
   }
