@@ -124,7 +124,7 @@ path {
   font-size: 200%;
   color: #FFFFFF;
   font-weight: bold;
-  box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 5px 2px rgba(99, 75, 9, 0.5);
   backface-visibility: hidden;
   transform: rotateX(0deg);
   transition: 0.5s;
@@ -165,12 +165,10 @@ a{
     text-align: center;
     margin-top: 2%;
     margin: 10px;
-    font-family: "Open Sans";
 
-    font-size: 120%;
-    position: absolute;
+    font-size: 160%;
     font-weight: bolder;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px 2px rgba(99, 75, 9, 0.5);
     backface-visibility: hidden;
     transform: rotateX(0deg);
     transition: 0.5s;
@@ -195,28 +193,23 @@ a{
     text-align: center;
     margin-top: 16%;
     margin: 10px;
-    font-family: "Open Sans";
-
-    font-size: 110%;
-    position: absolute;
+    font-size: 150%;
     font-weight: bold;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px 2px rgba(99, 75, 9, 0.5);
     backface-visibility: hidden;
     transform: rotateX(0deg);
     transition: 0.5s;
   }
-
-  col-sm-6 {
-    margin-bottom: 16%;
+  .qst h2{
+    font-size: 200%;
   }
+
+
   .answer {
-    margin-top: 30%;
+    margin-top: 18%;
   }
   #footer {
     height: 10%;
-  }
-  .logo {
-    width: 50%;
   }
   .video {
     width: 95%;
@@ -239,20 +232,18 @@ a{
     text-align: center;
     margin-top: 2%;
     margin: 10px;
-    font-family: "Open Sans";
 
-    font-size: 110%;
-    position: absolute;
-    font-weight: bold;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    backface-visibility: hidden;
-    transform: rotateX(0deg);
+
+    font-size: 135%;
+       font-weight: bold;
+
+     transform: rotateX(0deg);
     transition: 0.5s;
   }
 
 
   .answer {
-    margin-top: 30%;
+    margin-top: 20%;
   }
   #footer {
     height: 8%;
@@ -263,30 +254,27 @@ a{
 }
 @media screen and (max-width: 480px) {
   .qst {
-    font-size: 40%;
+
     margin-top: 18%;
   }
   .qst h2 {
-    font-size: 530%;
+    font-size: 180%;
   }
   .ansPaice {
     padding: 6%;
     text-align: center;
     margin-top: 2%;
     margin: 10px;
-    font-family: "Open Sans";
 
-    font-size: 90%;
-    position: absolute;
-    font-weight: bold;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    backface-visibility: hidden;
-    transform: rotateX(0deg);
+
+    font-size: 150%;
+     font-weight: bold;
+     transform: rotateX(0deg);
     transition: 0.5s;
   }
 
   .answer {
-    margin-top: 50%;
+    margin-top: 40%;
   }
   #footer {
     height: 6%;
@@ -298,7 +286,7 @@ a{
 @media screen and (max-width: 336px) {
   .qst {
     font-size: 10%;
-    margin-top: 30%;
+    margin-top: 20%;
   }
   .qst h2 {
     font-size: 1500%;
@@ -307,23 +295,18 @@ a{
     padding: 8%;
     text-align: center;
     margin: 10px;
-    font-family: "Open Sans";
 
-    font-size: 70%;
-    position: absolute;
+    font-size: 110%;
     font-weight: bold;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    backface-visibility: hidden;
+       backface-visibility: hidden;
     transform: rotateX(0deg);
     transition: 0.5s;
   }
 
   .answer {
-    margin-top: 60%;
+    margin-top: 50%;
   }
-  .col {
-    margin-top: 4%;
-  }
+
   #footer {
     height: 4%;
   }
