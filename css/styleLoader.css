@@ -155,7 +155,9 @@ a .ansBack{
   background-image: url(/image/menu.svg) !important;
 }
 
+
 .nav-item a{
+  text-align: center;
   font-size: 0.8rem;
   font-weight: bold;
 }
