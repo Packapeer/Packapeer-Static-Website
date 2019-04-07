@@ -65,7 +65,7 @@
         }
 
         button {
-            border: 2px solid #fff;
+            border: 2px solid #fcc017;
             border-radius: 30px;
             padding: 12px 35px;
             margin-top: 23px;
@@ -75,6 +75,11 @@
             font-weight: 700;
             margin-bottom: 25px;
         }
+        button:hover{
+            border: 2px solid #fcc017;
+            background: #fcc017;
+            color: #191919 ;
+        }
 
         /* heading */
         .fee-header h3 {
@@ -83,6 +88,7 @@
             text-transform: uppercase;
             text-align: center;
             font-weight: 700;
+            margin-top: 4%;
             position: relative;
             padding-bottom: 15px;
         }
@@ -108,7 +114,9 @@
             bottom: 0;
             left: calc(50% - 20px);
         }
-
+        #tabsJustified li a{
+            color: #fcc017;
+        }
         /* Tabs */
 
         /* #Tabs */
@@ -175,53 +183,36 @@
                 </ul>
                 <br>
                 <div id="tabsJustifiedContent" class="tab-content">
-                    <div id="home1" class="tab-pane fade active show">
-                        <div class="row">
-                            Next Batch will start on July 1st<br>
+                    <div id="home1" class="tab-pane fade active show text-center">
+                        <div class="row ml-auto mr-auto">
+                            <h6 style="width: 100%; text-align: center;">Next Batch will start on July 1st<br>
 
                             Registration will close by June<br>
 
-                            20 Seats Only<br>
-                            <!--<button>Apply Now</button>-->
+                                20 Seats Only<br></h6>
+                            <a href="apl-form.html"  style="margin-left: auto;margin-right: auto; text-align: center;"> <button>Apply Now</button></a>
                         </div>
 
                     </div>
-                    <div id="profile1" class="tab-pane fade">
+                    <div id="profile1" class="tab-pane fade text-center">
                         <div class="row">
-                            <p>
+                            <h6 style="width: 100%; text-align: center;">
                                 We Will Call You For An Interview After Succesfull Submission Of Application
-                            </p>
+                            </h6>
                         </div>
                     </div>
-                    <div id="messages1" class="tab-pane fade">
+                    <div id="messages1" class="tab-pane fade text-center">
                         <div class="row">
-                            <p>
+                            <h6 style="width: 100%; text-align: center;">
                                 We Will Send You A Confirmation After Succesfull Perfomance In The Interview
-                            </p>
+                            </h6>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
-    <div class="col-sm-12">
-        <header class="fee-header">
-            <h3>Fee Sructure</h3>
-        </header>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="tiles tile1 col-md-3 ml-auto">
-                <h1>1<sup>st</sup> Quadmester</h1><img src="image/paper-plane.png" alt="" /><br>
-                <button>₹ 1,00,000 + Tax</button>
-            </div>
-            <div class="tiles tile2 col-md-3 ml-auto mr-auto">
-                <h1>2<sup>nd</sup> Quadmester</h1><img src="image/plane.png" alt="" /><br>
-                <button>₹ 50,000 + Tax</button>
-            </div>
-            <div class="tiles tile3 col-md-3 mr-auto">
-                <h1>3<sup>rd</sup> Quadmester</h1><img src="image/space-ship.png" alt="" /><br>
-                <button>₹ 50,000 + Tax</button>
-            </div>
-        </div>
-    </div>
+
+</body>
+</html>

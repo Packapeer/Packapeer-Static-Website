@@ -18,9 +18,54 @@
         <link rel="stylesheet" type="text/css" href="css/util.css">
         <script src="vendor/wow/wow.min.js"></script>
         <style>
+            .table {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                margin: 0 auto;
+                grid-gap: 20px;
+            }
+
+            .tiles {
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                background: #eee;
+                padding: 30px 0px;
+                border-radius: 10px;
+            }
+
+            .tile1 {
+                background: #FBBF18;
+                box-shadow: 0px 0px 60px rgba(255, 221, 87, 0.5);
+            }
+
+            .tile2 {
+                background: #FBBF18;
+                box-shadow: 0px 0px 60px rgba(255, 221, 87, 0.5);
+                z-index: 100;
+            }
+
+            .tile3 {
+                background: #FBBF18;
+                box-shadow: 0px 0px 60px rgba(255, 221, 87, 0.5);
+            }
+
+            h1 {
+                font-size: 1.6rem;
+                padding: 10px 0px;
+                margin-bottom: 10px;
+            }
+
+            img {
+                width: 50%;
+            }
+
+            p {
+                padding: 2px 0px;
+            }
 
             button {
-                border: 2px solid #fcc017;
+                border: 2px solid #fff;
                 border-radius: 30px;
                 padding: 12px 35px;
                 margin-top: 23px;
@@ -30,11 +75,44 @@
                 font-weight: 700;
                 margin-bottom: 25px;
             }
-            button:hover{
-                border: 2px solid #fcc017;
-                background: #fcc017;
-                color: #191919 ;
+
+            /* heading */
+            .fee-header h3 {
+                font-size: 32px;
+                color: #FFF;
+                text-transform: uppercase;
+                text-align: center;
+                margin-top: 4%;
+                font-weight: 700;
+                position: relative;
+                padding-bottom: 15px;
             }
+
+            .fee-header h3::before {
+                content: '';
+                position: absolute;
+                display: block;
+                width: 120px;
+                height: 1px;
+                background: #ddd;
+                bottom: 1px;
+                left: calc(50% - 60px);
+            }
+
+            .fee-header h3::after {
+                content: '';
+                position: absolute;
+                display: block;
+                width: 40px;
+                height: 3px;
+                background: #FBBF18;
+                bottom: 0;
+                left: calc(50% - 20px);
+            }
+
+            /* Tabs */
+
+            /* #Tabs */
         </style>
     </head>
 </head>
@@ -61,10 +139,10 @@
                     <a href="apply-now.html" class="nav-link">Apply Now</a>
                 </li>
                 <li class="nav-item">
-                    <a href="fee.html" class="nav-link">Fee Structure</a>
+                    <a href="fee.html" class="nav-link active">Fee Structure</a>
                 </li>
                 <li class="nav-item">
-                    <a href="admission.html" class="nav-link active">Admission Procedure</a>
+                    <a href="admission.html" class="nav-link">Admission Procedure</a>
                 </li>
                 <li class="nav-item">
                     <a href="terms.html" class="nav-link">Terms and Conditions</a>
@@ -81,29 +159,34 @@
 </nav>
 
 
-
-<section class="module">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 m-l-auto m-r-auto" style="margin-top: -16%; text-align: justify;">
-                <div class="special-heading">
-
-                    <h1>Admission Procedure</h1>
-                </div>
-                <div style="color: #FFFFFF">
-                    <p>All a candidate need to be part of this program is basic English writing and reading skills, simple mathematical operation and common sense :)
-                    </p></br>
-                    <h4>Step 1: </h4><a href="apl-form.html" style="margin-left: 40%;"> <button>Register Here</button></a>
-                    </br>
-                    <p><h4>Step 2: </h4>Based on registration, we will contact for screening test. Screening test will be face to face interview with a duration of 30 minutes to one hour. Based on the test result, candidates will be shortlisted.
-                    </p></br>
-                    <p>20 Seats Only</p>
-
-                </div>
-            </div>
+<div class="col-sm-12">
+    <header class="fee-header">
+        <h3>Fee Sructure</h3>
+    </header>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="tiles tile1 col-md-3 ml-auto">
+            <h1>1<sup>st</sup> Quadmester</h1><img src="image/paper-plane.png" alt="" /><br>
+            <a href="quote.html">
+            <button>Get A Quotes</button>
+            </a>
+        </div>
+        <div class="tiles tile2 col-md-3 ml-auto mr-auto">
+            <h1>2<sup>nd</sup> Quadmester</h1><img src="image/plane.png" alt="" /><br>
+            <a href="quote.html">
+            <button>Get A Quotes</button>
+            </a>
+        </div>
+        <div class="tiles tile3 col-md-3 mr-auto">
+            <h1>3<sup>rd</sup> Quadmester</h1><img src="image/space-ship.png" alt="" /><br>
+            <a href="quote.html">
+            <button >Get A Quotes</button>
+            </a>
         </div>
     </div>
-</section>
+</div>
+
 
 </body>
 </html>
