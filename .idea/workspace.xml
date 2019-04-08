@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e164af78-690a-45cc-970d-584ffb96b405" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BckLogs.html" beforeDir="false" afterPath="$PROJECT_DIR$/BckLogs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admission.html" beforeDir="false" afterPath="$PROJECT_DIR$/admission.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apl-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/apl-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apply-now.html" beforeDir="false" afterPath="$PROJECT_DIR$/apply-now.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apply.html" beforeDir="false" afterPath="$PROJECT_DIR$/apply.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/benifits.html" beforeDir="false" afterPath="$PROJECT_DIR$/benifits.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/champion.html" beforeDir="false" afterPath="$PROJECT_DIR$/champion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course.html" beforeDir="false" afterPath="$PROJECT_DIR$/course.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fee.html" beforeDir="false" afterPath="$PROJECT_DIR$/fee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nonTech.html" beforeDir="false" afterPath="$PROJECT_DIR$/nonTech.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quote.html" beforeDir="false" afterPath="$PROJECT_DIR$/quote.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/techy.html" beforeDir="false" afterPath="$PROJECT_DIR$/techy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/terms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whoweare.html" beforeDir="false" afterPath="$PROJECT_DIR$/whoweare.html" afterDir="false" />
-    </list>
+    <list default="true" id="e164af78-690a-45cc-970d-584ffb96b405" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -61,7 +43,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/whoweare.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="100">
               <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -274,12 +256,12 @@
       <workItem from="1554675873960" duration="2035000" />
       <workItem from="1554711529037" duration="802000" />
       <workItem from="1554717872922" duration="166000" />
-      <workItem from="1554726272600" duration="1201000" />
+      <workItem from="1554726272600" duration="1671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111084000" />
+    <option name="totallyTimeSpent" value="111554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="723" extended-state="6" />
@@ -296,7 +278,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.24916388" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.050167225" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5100334" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32943144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -600,7 +582,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/whoweare.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="100">
           <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
