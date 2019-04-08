@@ -18,68 +18,6 @@
     <link rel="stylesheet" type="text/css" href="css/util.css">
     <script src="vendor/wow/wow.min.js"></script>
     <style>
-        .table {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            margin: 0 auto;
-            grid-gap: 20px;
-        }
-
-        .tiles {
-            width: 100%;
-            height: 100%;
-            text-align: center;
-            background: #eee;
-            padding: 30px 0px;
-            border-radius: 10px;
-        }
-
-        .tile1 {
-            background: #FBBF18;
-            box-shadow: 0px 0px 60px rgba(255, 221, 87, 0.5);
-        }
-
-        .tile2 {
-            background: #FBBF18;
-            box-shadow: 0px 0px 60px rgba(255, 221, 87, 0.5);
-            z-index: 100;
-        }
-
-        .tile3 {
-            background: #FBBF18;
-            box-shadow: 0px 0px 60px rgba(255, 221, 87, 0.5);
-        }
-
-        h1 {
-            font-size: 1.6rem;
-            padding: 10px 0px;
-            margin-bottom: 10px;
-        }
-
-        img {
-            width: 50%;
-        }
-
-        p {
-            padding: 2px 0px;
-        }
-
-        button {
-            border: 2px solid #fcc017;
-            border-radius: 30px;
-            padding: 12px 35px;
-            margin-top: 23px;
-            font-size: .9rem;
-            background: #191919;
-            color: #FFF;
-            font-weight: 700;
-            margin-bottom: 25px;
-        }
-        button:hover{
-            border: 2px solid #fcc017;
-            background: #fcc017;
-            color: #191919 ;
-        }
 
         /* heading */
         .fee-header h3 {
@@ -88,7 +26,6 @@
             text-transform: uppercase;
             text-align: center;
             font-weight: 700;
-            margin-top: 4%;
             position: relative;
             padding-bottom: 15px;
         }
@@ -114,9 +51,7 @@
             bottom: 0;
             left: calc(50% - 20px);
         }
-        #tabsJustified li a{
-            color: #fcc017;
-        }
+
         /* Tabs */
 
         /* #Tabs */
@@ -143,7 +78,7 @@
                         <a href="benifits.html" class="nav-link">Benefits of our program</a>
                     </li>
                     <li class="nav-item">
-                        <a href="apply-now.html" class="nav-link active">Apply Now</a>
+                        <a href="apply-now.html" class="nav-link">Apply Now</a>
                     </li>
                     <li class="nav-item">
                         <a href="fee.html" class="nav-link">Fee Structure</a>
@@ -152,7 +87,7 @@
                         <a href="admission.html" class="nav-link">Admission Procedure</a>
                     </li>
                     <li class="nav-item">
-                        <a href="skillsets.html" class="nav-link">Skill Set</a>
+                        <a href="skillsets.html" class="nav-link active">Skill Set</a>
                     </li>
                     <li class="nav-item">
                         <a href="terms.html" class="nav-link">Terms and Conditions</a>
@@ -169,56 +104,44 @@
     </nav>
     <div class="col-sm-12">
         <header class="fee-header">
-            <h3>How To Apply</h3>
+            <h3>Extra Skill Sets</h3>
         </header>
     </div>
-    <!-- <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="how.html" frameborder="0"></iframe>
-    </div> -->
-
-    <section class="container py-4">
+    <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <ul id="tabsJustified" class="nav nav-tabs">
-                    <li class="nav-item ml-auto mr-auto"><a href="" data-target="#home1" data-toggle="tab"
-                            class="nav-link small text-uppercase active">Apply</a></li>
-                    <li class="nav-item ml-auto mr-auto"><a href="" data-target="#profile1" data-toggle="tab"
-                            class="nav-link small text-uppercase">Interview</a></li>
-                    <li class="nav-item ml-auto mr-auto"><a href="" data-target="#messages1" data-toggle="tab"
-                            class="nav-link small text-uppercase">Confirmation</a></li>
-                </ul>
-                <br>
-                <div id="tabsJustifiedContent" class="tab-content">
-                    <div id="home1" class="tab-pane fade active show text-center">
-                        <div class="row ml-auto mr-auto">
-                            <h6 style="width: 100%; text-align: center;">Next Batch will start on July 1st<br>
-
-                            Registration will close by June<br>
-
-                                20 Seats Only<br></h6>
-                            <a href="apl-form.html"  style="margin-left: auto;margin-right: auto; text-align: center;"> <button>Apply Now</button></a>
-                        </div>
-
-                    </div>
-                    <div id="profile1" class="tab-pane fade text-center">
-                        <div class="row">
-                            <h6 style="width: 100%; text-align: center;">
-                                We Will Call You For An Interview After Succesfull Submission Of Application
-                            </h6>
-                        </div>
-                    </div>
-                    <div id="messages1" class="tab-pane fade text-center">
-                        <div class="row">
-                            <h6 style="width: 100%; text-align: center;">
-                                We Will Send You A Confirmation After Succesfull Perfomance In The Interview
-                            </h6>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-2 ">
+                <img class="img-fluid" src="image/present.png" alt="present"> 
+            </div>
+            <div class="col-md-10">
+                <h3>Presentational Skill</h3>
+                <h3>English Communication</h3>
             </div>
         </div>
-    </section>
-
-
-</body>
-</html>
+        <div class="row">
+            <div class="ml-auto">
+                <h3 class="ml-auto">E-Mail Writing Skill</h3>
+                <h3 class="ml-auto">Interview Training</h3>
+            </div>
+            <div class="col-md-2 ">
+                <img class="img-fluid" src="image/interview.png" alt="present"> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 ">
+                <img class="img-fluid" src="image/innovation.png" alt="present"> 
+            </div>
+            <div class="col-md-10">
+                <h3>Personal Finance</h3>
+                <h3>Startup Mentoring</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="ml-auto">
+                <h3>Youtube Video Making</h3>
+            </div>
+            <div class="col-md-2 ">
+                <img class="img-fluid" src="image/shooting-script.png" alt="present"> 
+            </div>
+        </div>
+        
+</div>
