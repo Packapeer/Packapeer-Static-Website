@@ -53,7 +53,40 @@
             bottom: 0;
             left: calc(50% - 20px);
         }
+        .sizingright{
+            width: 80% !important;
+        }
+        .sizingleft{
+            width: 80% !important;
+        }
+        @media only screen and (max-width: 768px) {
+            .sizingright{
+                width: 30% !important;
+                float: right;
+                margin-bottom: -20%;
+            }
+            .sizingleft{
+                width: 30% !important;
+                float: left;
+                margin-top: -20%;
+            }
+            .row{
+                margin-top: 8%;
+            }
+        }
+        @media screen and (max-width: 480px) {
+            .container .row h3 {
+                font-size: 20px;
+                padding-bottom: 15px;
+            }
+        }
 
+        @media screen and (max-width: 336px) {
+            .container .row h3 {
+                font-size: 16px;
+                padding-bottom: 15px;
+            }
+        }
         /* Tabs */
 
         /* #Tabs */
@@ -112,7 +145,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2 ">
-                <img class="img-fluid" src="image/present.png" alt="present"> 
+                <img class="img-fluid sizingright" src="image/present.png" alt="present" style="width: 10%;">
             </div>
             <div class="col-md-10">
                 <h3>Presentational Skill</h3>
@@ -125,12 +158,12 @@
                 <h3 class="ml-auto">Interview Training</h3>
             </div>
             <div class="col-md-2 ">
-                <img class="img-fluid" src="image/interview.png" alt="present"> 
+                <img class="img-fluid sizingleft" src="image/interview.png" alt="present">
             </div>
         </div>
         <div class="row">
             <div class="col-md-2 ">
-                <img class="img-fluid" src="image/innovation.png" alt="present"> 
+                <img class="img-fluid sizingright" src="image/innovation.png" alt="present">
             </div>
             <div class="col-md-10">
                 <h3>Personal Finance</h3>
@@ -138,11 +171,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="ml-auto">
+            <div class="ml-auto mt-5">
                 <h3>Youtube Video Making</h3>
             </div>
             <div class="col-md-2 ">
-                <img class="img-fluid" src="image/shooting-script.png" alt="present"> 
+                <img class="img-fluid sizingleft" src="image/shooting-script.png" alt="present">
             </div>
         </div>
         
