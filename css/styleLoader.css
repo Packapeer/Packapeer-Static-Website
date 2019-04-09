@@ -159,7 +159,9 @@ a .ansBack{
  font-size: 0.8rem;
  font-weight: bold;
 }
-
+.grey-nav{
+ background-color: #191919;
+}
 @media screen and (max-width: 992px) {
   .ansPaice {
     padding: 3%;
