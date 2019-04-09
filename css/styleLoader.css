@@ -161,6 +161,9 @@ a .ansBack{
   font-size: 0.8rem;
   font-weight: bold;
 }
+.navgray{
+  background-color: #191919;
+}
 @media only screen and (max-width: 1100px) {
   .logo{
     width: 40%;
