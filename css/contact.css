@@ -6,6 +6,7 @@
     width: 100%;
     margin: 0 0 -6px;
     border: none;
+	height: 90vh;
 }
 .map-color,.map iframe{
 	min-height:500px;
@@ -19,7 +20,9 @@
 }
 .contact-grdl{
 	padding:0 !important;
+	text-align: center;
 }
+
 .contact-grdl span{
 	color:#fff;
 	font-size:2em;
@@ -36,11 +39,15 @@
     left: 14%;
 	width:72%;
 }
+.contact-grid{
+	margin-top: 4%;
+}
 .address{
 	margin:2em 0;
 }
 .contact-grdr ul li a{
 	color:#FBFF00;
+	text-align: center;
 	text-decoration:none;
 	display:block;
 	margin:0.6em 0 0;
@@ -102,5 +109,22 @@
     font-size: 1.5em;
     display: block;
     margin-bottom: 0.5em;
+}
+.space{
+	margin-top: -20%;
+}
+.contact-grdl ul{
+	list-style: none;
+}
+.contact-grdl ul li{
+	margin-top: 4%;
+}
+.contact-grdl ul li a{
+	text-decoration: none;
+
+	color: #fcc017 ;
+}
+@media only screen and (max-width: 768px) {
+
 }
 /*-- //contact --*/
