@@ -145,7 +145,7 @@ a .ansBack{
   justify-content: right;
 }
 .logo {
-  width: 30%;
+  width: 18%;
 }
 .video {
   width: 80%;
@@ -182,13 +182,13 @@ button:hover{
 }
 @media only screen and (max-width: 1100px) {
   .logo{
-    width: 40%;
+    width: 20%;
   }
 }
 
 @media screen and (max-width: 992px) {
   .logo{
-    width: 60%;
+    width: 20%;
   }
   .ansPaice {
     padding: 3%;
@@ -219,7 +219,7 @@ button:hover{
 }
 @media only screen and (max-width: 870px) {
   .logo {
-    width: 100%;
+    width: 30%;
   }
 }
 
@@ -241,6 +241,11 @@ button:hover{
   }
   .qst h2{
     font-size: 200%;
+  }
+  ul{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
@@ -279,6 +284,10 @@ button:hover{
      transform: rotateX(0deg);
     transition: 0.5s;
   }
+  .logo{
+    width: 40%;
+    margin-bottom: 5%;
+  }
 
 
   .answer {
@@ -301,7 +310,7 @@ button:hover{
   }
   .qst {
 
-    margin-top: 18%;
+    margin-top: 10%;
   }
   .qst h2 {
     font-size: 180%;
@@ -320,7 +329,10 @@ button:hover{
   }
 
   .answer {
-    margin-top: 40%;
+    margin-top: 30%;
+  }
+  .logo{
+    width: 50%;
   }
   #footer {
     height: 6%;
@@ -332,7 +344,7 @@ button:hover{
 @media screen and (max-width: 336px) {
   .qst {
     font-size: 10%;
-    margin-top: 20%;
+    margin-top: 10%;
   }
   .qst h2 {
     font-size: 1500%;
@@ -350,7 +362,12 @@ button:hover{
   }
 
   .answer {
-    margin-top: 50%;
+    margin-top: 40%;
+  }
+  ul li{
+    padding-left: 10%;
+    padding-left: auto;
+    padding-right: auto;
   }
 
   #footer {
