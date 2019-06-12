@@ -150,6 +150,9 @@ a .ansBack{
 .logo {
     width: 35%;
 }
+.logo-home {
+  width: 21%;
+}
 .video {
   width: 80%;
 }
@@ -238,6 +241,9 @@ button:hover{
 @media only screen and (max-width: 768px) {
   .logo{
     width: 30%;
+  }
+  .logo-home {
+    width: 60%;
   }
   .ansPaice {
     padding: 4%;
